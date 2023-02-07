@@ -15,7 +15,7 @@
         }
         // Makes sure a user enters a valid name
         // The regular expression pattern "/^[a-zA-Z\s]+$/" only allows letters (uppercase or lowercase) and spaces in the input. 
-        elseif(!filter_var($input_name, FILTER_VALIDATE_REGEXP, array("options"=>array("regexp"=>"/^[a-sA-Z\s]+$/")))){
+        elseif(!filter_var($input_name, FILTER_VALIDATE_REGEXP, array("options"=>array("regexp"=>"/^[a-zA-Z\s]+$/")))){
             $name_err = "Please enter a Valid name";
         }
         else{
