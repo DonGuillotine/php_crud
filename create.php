@@ -108,12 +108,12 @@
                         <div class="form-group">
                             <label>Address</label>
                             <textarea name="address" class="form-control <?php echo (!empty($address_err)) ? 'is-invalid' : ''; ?>"><?php echo $address; ?></textarea>
-                            <span class="invalid-feedback"><?php echo $address_err; ?>"</span>
+                            <span class="invalid-feedback"><?php echo $address_err; ?></span>
                         </div>
                         <div class="form-group">
                             <label>Salary</label>
                             <input type="text" name="salary" class="form-control <?php echo (!empty($salary_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $salary; ?>">
-                            <span class="invalid-feedback"><?php echo $salary_err; ?>"</span>
+                            <span class="invalid-feedback"><?php echo $salary_err; ?></span>
                         </div>
                         <input type="submit" class="btn btn-primary" value="Submit">
                         <a href="index.php" class="btn btn-secondary ml-2">Cancel</a>
