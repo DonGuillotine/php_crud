@@ -1,1 +1,2 @@
-# Building a CRUD with PHP implementing Prepared Statements
+# Building a CRUD with PHP implementing Prepared Statements.
+Futher details coming soon, Stay TUNED...
