@@ -51,6 +51,7 @@
             // Prepare an insert statement
             $sql = "INSERT INTO employees (name, address, salary) VALUES(?, ?, ?)";
 
+            // Preparing SQL Execution
             if($stmt = mysqli_prepare($connection, $sql)){
                 // Bind variables to the prepared statement as parameters
                 mysqli_stmt_bind_param($stmt, "sss", $param_name, $param_address, $param_salary);
