@@ -24,3 +24,8 @@ It updates the existing records in the employees table based the id attribute of
 The Delete Page deletes the existing records from the employees table based the id attribute of the employee.
 
 ![Screenshot (128)](https://user-images.githubusercontent.com/89584431/220327456-1ded80d1-21d8-46aa-99d6-8b143c92a458.png)
+
+# The Error Page
+This page will be displayed if request is invalid i.e. if id parameter is missing from the URL query string or it is not valid.
+
+![Screenshot (129)](https://user-images.githubusercontent.com/89584431/220327712-9311e248-2685-4577-b226-1b057dafce63.png)
