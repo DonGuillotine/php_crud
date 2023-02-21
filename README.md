@@ -19,3 +19,8 @@ The Create Page displays the HTML form and process the submitted form data. It w
 It updates the existing records in the employees table based the id attribute of the employee.
 
 ![Screenshot (127)](https://user-images.githubusercontent.com/89584431/220327166-d0b30331-89dd-453c-943d-fe8f72169ab2.png)
+
+# The Delete Page
+The Delete Page deletes the existing records from the employees table based the id attribute of the employee.
+
+![Screenshot (128)](https://user-images.githubusercontent.com/89584431/220327456-1ded80d1-21d8-46aa-99d6-8b143c92a458.png)
