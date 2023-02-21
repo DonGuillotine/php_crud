@@ -7,4 +7,15 @@ CRUD is an acronym for Create, Read, Update, and Delete. CRUD operations are bas
 The Landing Page contains a data grid showing the records from the employees database table. It also has action icons for each record displayed in the grid, that you may choose to view its details, update it, or delete it.
 
 There's also a create button on the top of the data grid that can be used for creating new records in the employees table.
+
 ![Screenshot (125)](https://user-images.githubusercontent.com/89584431/220326145-b4bc5d90-eb9e-4e60-8920-10f8f169c74c.png)
+
+# The Create Page
+The Create Page displays the HTML form and process the submitted form data. It will also perform basic validation on user inputs before saving the data.
+
+![Screenshot (126)](https://user-images.githubusercontent.com/89584431/220326771-20caa0e5-49d7-429c-98d7-301072ad0e81.png)
+
+# The Update Page
+It updates the existing records in the employees table based the id attribute of the employee.
+
+![Screenshot (127)](https://user-images.githubusercontent.com/89584431/220327166-d0b30331-89dd-453c-943d-fe8f72169ab2.png)
